@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 
 from bokeh.plotting import figure, show, output_file
-from bokeh.embed import components, notebook_div
+from bokeh.embed import components
 from jinja2 import Template
 from os import path
 
